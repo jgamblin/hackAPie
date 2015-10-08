@@ -17,10 +17,10 @@ eht0 is configured for DHCP and there is a web interface running on port 80.
 There are 5 preconfigured wireless networks all running on channel 11.
 
 1: hackAPiehidden<br>
-2: hackAPieWEP (367a3c5464796c5f636f3a3537)<br>
-3: hackAPieWPA (oyouevenhackbro?)<br>
-4: hackAPieWPA2 (thatwasrealleasy?)<br>
-5: hackAPieWPAMixed (areyoutheworldsbesthacker?)<br>
+2: hackAPieWEP<br> 
+3: hackAPieWPA<br> 
+4: hackAPieWPA2<br> 
+5: hackAPieWPAMixed<br> 
 
 ##Important Notice
 I dont know what I am doing. This could be illegal in your country (maybe?).
