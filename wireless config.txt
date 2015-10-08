@@ -1,0 +1,59 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option channel '11'
+	option hwmode '11g'
+	option path 'platform/bcm2708_usb/usb1/1-1/1-1.3/1-1.3:1.0'
+	option txpower '20'
+	option country '00'
+
+config wifi-iface
+	option device 'radio0'
+	option network 'lan'
+	option mode 'ap'
+	option ssid 'hackAPieWEP'
+	option encryption 'wep-open'
+	option key '1'
+	option key1 '367a3c5464796c5f636f3a3537'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option encryption 'none'
+	option ssid 'hackAPieHidden'
+	option network 'lan'
+	option hidden '1'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option ssid 'hackAPieWPA'
+	option network 'lan'
+	option encryption 'psk'
+	option key 'hackapie'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option encryption 'psk2'
+	option network 'lan'
+	option key 'hackapie'
+	option ssid 'hackAPieWPA2'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option ssid 'hackAPieWPAMixed'
+	option network 'lan'
+	option encryption 'psk-mixed'
+	option key 'utheworldsbesthacker? '
+
+config wifi-device  radio0
+	option type     mac80211
+	option channel  11
+	option hwmode	11g
+	option path	'platform/bcm2708_usb/usb1/1-1/1-1.4/1-1.4:1.0'
+	option htmode	HT20
+	option disabled 0
+
+
