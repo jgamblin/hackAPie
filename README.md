@@ -1,5 +1,5 @@
 #hackAPie
-hackAPie is preconfigured Raspberry PI 2 OpenWRT image based off of [this guide](https://devzone.nordicsemi.com/blogs/700/trying-openwrt-chaos-calmer-1505-rc1-on-raspberry-/) and using this [canakit] (http://www.canakit.com/raspberry-pi-starter-kit.html) to practice hacking wireless networks using the tools included in Kali 2.0 
+hackAPie is preconfigured Raspberry PI 2 OpenWRT image based off of [this guide](https://devzone.nordicsemi.com/blogs/700/trying-openwrt-chaos-calmer-1505-rc1-on-raspberry-/) and using this [canakit] (http://www.canakit.com/raspberry-pi-starter-kit.html) to provide a safe environment to practice wireless hacking techniques against.  
 
 ## How To Install 
 
@@ -19,7 +19,7 @@ scp "wireless config.txt" root@yourip:/etc/config/wireless<br>
 Username:**root**<br>
 Password:**hackapie**<br>
 
-eht0 is configured for DHCP and there is a web interface running on port 80. 
+eth0 is configured for DHCP and there is a web interface running on port 80. 
 
 ##Wireless Networks:
 There are 5 preconfigured wireless networks all running on channel 11.
